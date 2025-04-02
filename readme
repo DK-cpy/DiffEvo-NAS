@@ -1,0 +1,8 @@
+1.train_search.py中采用的是遗传算法
+2.train_search_diffevo.py采用的是扩散进化算法
+3.train.py中采用的是train_search_diffevo.py搜索出来的cifar-10的超网进行的重训练，得到eval-EXP---文件
+4.train_diffevo_cifar100.py采用的是train_search_diffevo.py中将数据集改为cifar-100后搜索出来的超网，得到eval-cifar100-EXP---文件
+5.train_diffevo_imagenet.py采用的搜出来的cifar-100超网，其结果保存在checkpoints中
+6.diffevo文件夹是扩散进化算法
+7.其他的py代码来自DENAS-small
+8.test_cifar_diffevo.py能跑通，但是用处可能不大
